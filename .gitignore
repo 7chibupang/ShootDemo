@@ -1,0 +1,44 @@
+# UE5 项目 .gitignore
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# UE5 临时/编译产物
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Build/
+*.xcworkspace
+*.xcuserdata
+
+# 自动生成的项目文件（由.uproject右键生成）
+Makefile
+CMakeLists.txt
+*.make
+*.cmake
+
+# 打包输出
+Packaged/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Rider
+.idea/
+
+# Xcode
+*.xcuserdata
